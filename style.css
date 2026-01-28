@@ -1,43 +1,136 @@
-body {
-  font-family: "Lato", sans-serif;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+html {
+  scroll-behavior: smooth;
 }
-
-main {
-  flex: 1;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Ubuntu", serif;
 }
 
 .navbar {
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  background-color: #bfcdec;
+  transition: all 0.3s ease;
 }
 
-.nav-link.active {
+.navbar.nav-scrolled {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+  margin-left: 15px;
+  color: darkblue;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.navbar-nav {
+  margin-left: 20px;
+}
+.nav-item {
+  margin-left: 10px;
+}
+#cartCount {
+  font-size: 11px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  padding-right: 40px; /* space for icon */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.868-3.834zM12 6.5a5.5 5.5 0 1 1-11 0a5.5 5.5 0 0 1 11 0'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+/* card  */
+.card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* home */
+.greeting {
+  font-family: "Nunito", sans-serif;
+}
+
+.hero-section {
+  background: #f8f9fa;
+}
+
+.hero-title {
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  color: #0d6efd !important;
+  color: #1f2937;
+}
+
+.hero-text {
+  font-family: "Nunito", sans-serif;
+  color: #374151;
+  font-size: 1.05rem;
+}
+
+.btn-gold {
+  background-color: #f1bd11;
+  color: #1f2937;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+}
+
+.btn-gold:hover {
+  background-color: #e0a800;
 }
 
 footer {
-  background: #111;
-  color: #fff;
+  background-color: #bfcdec;
+  color: #060b01;
 }
 
-footer i {
-  font-size: 20px;
-  margin-left: 10px;
-  color: #fff;
+/* =====================
+   CART PAGE DESIGN
+===================== */
+
+.cart-list .cart-item {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 14px;
 }
 
-footer i:hover {
-  color: #0d6efd;
+.cart-item-name {
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-.checkout {
-  background: #0d6efd;
-  color: white;
-  border: none;
-  padding: 10px 25px;
-  border-radius: 6px;
+.cart-item-price {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.cart-actions button {
+  min-width: 36px;
+}
+
+.cart-summary {
+  border-radius: 16px;
+  background: #f8fafc;
 }
