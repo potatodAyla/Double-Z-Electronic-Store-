@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-color: #b9d0e9;
+}
 * {
   margin: 0;
   padding: 0;
@@ -8,23 +11,39 @@ html {
   outline: none;
   font-family: "Ubuntu", serif;
 }
-
+/* navbar background (blue) */
 .navbar {
-  background-color: #bfcdec;
+  backdrop-filter: blur(8px);
+}
+
+/* brand text */
+.navbar-brand {
+  color: #0e2239;
+  font-weight: bold;
+}
+
+/* nav links */
+.navbar .nav-link {
+  color: #0e2239;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 30px;
   transition: all 0.3s ease;
 }
 
-.navbar.nav-scrolled {
-  background-color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+/* active link */
+.navbar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
-#logo {
-  margin-left: 15px;
-  color: darkblue;
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 6px;
+/* cart icon */
+.navbar .bi-cart3 {
+  color: #0e2239;
+}
+
+/* rounded navbar */
+.rounded-navbar {
+  border-radius: 50px;
 }
 
 .navbar-nav {
@@ -33,6 +52,7 @@ html {
 .nav-item {
   margin-left: 10px;
 }
+
 #cartCount {
   font-size: 11px;
   min-width: 16px;
@@ -44,14 +64,30 @@ html {
 }
 
 .search-input {
-  padding-right: 40px; /* space for icon */
+  padding-right: 40px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.868-3.834zM12 6.5a5.5 5.5 0 1 1-11 0a5.5 5.5 0 0 1 11 0'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 12px center;
   background-size: 16px;
 }
+.home-hero {
+  min-height: 70vh;
+  background: url("images/bg.jpg") center / cover no-repeat;
+  display: flex;
+  align-items: center;
+}
 
-/* card  */
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.home-hero .container {
+  z-index: 2;
+}
+
 .card {
   transition:
     transform 0.2s ease,
@@ -63,30 +99,13 @@ html {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* home */
 .greeting {
   font-family: "Nunito", sans-serif;
 }
 
-.hero-section {
-  background: #f8f9fa;
-}
-
-.hero-title {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  color: #1f2937;
-}
-
-.hero-text {
-  font-family: "Nunito", sans-serif;
-  color: #374151;
-  font-size: 1.05rem;
-}
-
 .btn-gold {
   background-color: #f1bd11;
-  color: #1f2937;
+  color: #0e2239;
   font-weight: 600;
   border-radius: 12px;
   padding: 0.75rem 1.5rem;
@@ -98,15 +117,28 @@ html {
 
 footer {
   background-color: #bfcdec;
-  color: #060b01;
+  color: #0e2239;
 }
 
-/* =====================
-   CART PAGE DESIGN
-===================== */
+footer a {
+  background-color: #bfcdec;
+  color: #0e2239;
+  text-decoration: none;
+}
+
+#scrollTopBtn {
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  display: none;
+  z-index: 1050;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: block;
+}
 
 .cart-list .cart-item {
-  background: #ffffff;
+  background: #0e2239;
   border-radius: 14px;
   padding: 16px;
   display: flex;
@@ -117,7 +149,7 @@ footer {
 }
 
 .cart-item-name {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1rem;
 }
 
@@ -132,5 +164,28 @@ footer {
 
 .cart-summary {
   border-radius: 16px;
-  background: #f8fafc;
+  background: #0e2239;
+}
+
+.toast-message {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #d9e624;
+  color: #0e2239;
+  padding: 12px 18px;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.toast-message.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bg {
+  border-radius: 3px;
 }

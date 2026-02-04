@@ -47,7 +47,9 @@
   </head>
   <body>
     <!-- nav bar  -->
-    <nav class="navbar navbar-expand-lg mb-4 sticky-top">
+    <nav
+      class="navbar navbar-expand-lg mb-4 sticky-top rounded-navbar shadow-sm mt-3 mx-3 bg-opacity-75"
+    >
       <div class="container-fluid">
         <a
           class="navbar-brand d-flex align-items-center"
@@ -81,7 +83,7 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cart.html">
+              <a class="nav-link me-3" href="cart.html">
                 <span class="position-relative d-inline-block">
                   <i class="bi bi-cart3 fs-5"></i>
 
@@ -95,12 +97,12 @@
               </a>
             </li>
           </ul>
-          <form class="d-flex" role="search" onsubmit="return false;">
+          <form class="d-flex ms-2" action="products.html">
             <input
               type="search"
+              name="q"
               class="form-control search-input"
               placeholder="Search products..."
-              id="searchInput"
             />
           </form>
         </div>
@@ -108,65 +110,154 @@
     </nav>
 
     <!-- home -->
-    <section class="hero-section py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <!-- Left: Image -->
-          <div
-            class="col-md-6 mb-4 mb-md-0 animate__animated animate__backInLeft"
-          >
-            <img
-              src="images/bg.jpg"
-              alt="Electronic products"
-              class="img-fluid rounded-4 shadow"
-            />
-          </div>
-
-          <!-- Right: Text -->
-          <div class="col-md-6 animate__animated animate__backInRight">
-            <h1 class="hero-title mb-3">Welcome to Double Z Electronic</h1>
-            <p class="hero-text mb-4">
-              We specialize in modern electronic accessories that make everyday
-              life easier. From trusted brands to the latest gadgets, we focus
-              on quality, value, and customer satisfaction.
-            </p>
-            <a href="products.html" class="btn btn-gold btn-lg"> Order Now </a>
+    <section class="home-hero position-relative text-white py-5">
+      <div class="container text-center position-relative">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 animate__animated animate__slideInUp">
+            <h1 class="display-4 fw-bold">
+              Welcome to Double Z Electronic Store
+            </h1>
+            <p class="lead">Best electronic products with affordable prices.</p>
+            <div class="mt-4">
+              <a href="products.html" class="btn btn-warning btn-lg me-2">
+                Explore Products
+              </a>
+              <a href="#about" class="btn btn-outline-light btn-lg">
+                Learn More
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- about  -->
-    <section id="about" class="container py-5">
-      <h2 class="mb-3">About Us</h2>
-      <p>
-        Founded in 2017, Double Z Electronic has grown into a trusted
-        destination for high-quality electronic accessories and audio equipment.
-        We are committed to providing reliable products and excellent customer
-        service.
-      </p>
+    <section id="about" class="container my-5">
+      <div class="row align-items-center g-5">
+        <!-- Text -->
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-3">About Double Z Electronic</h2>
+          <p class="card-text text-muted">
+            Founded in 2017, Double Z Electronic started as a passion for
+            electronics. What began as a hobby has grown into a trusted store
+            serving customers with quality products and dependable service.
+          </p>
+          <p class="card-text text-muted">
+            We carefully select our products to ensure reliability, performance,
+            and value. Customer satisfaction is always our top priority.
+          </p>
+          <p class="card-text text-muted">
+            Thank you for choosing Double Z Electronic. We look forward to
+            serving you and becoming your trusted partner for everyday
+            technology needs.
+          </p>
+        </div>
+
+        <!-- Right: Image -->
+        <div class="col-md-6 text-center">
+          <img
+            src="images/logo.jpg"
+            style="max-width: 340px; border: 5px solid #7795e7"
+            class="img-fluid rounded-pill shadow mx-auto d-block border border-4"
+            alt="About Double Z Electronic"
+          />
+        </div>
+      </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="container py-5">
-      <h2 class="mb-3">Contact Us</h2>
-      <p>
-        Have questions or need assistance? Reach out to us anytime — we’re happy
-        to help.
-      </p>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Contact Us</h2>
+
+        <div class="row g-5 align-items-center justify-content-center">
+          <!-- LEFT: Contact Info -->
+          <div class="col-12 col-md-5">
+            <h5 class="fw-bold mb-3">Get in Touch</h5>
+            <p>
+              Have questions about our products or services? Our team is here to
+              help you.
+            </p>
+
+            <p class="mb-2">
+              <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+              No. 32, First Floor, Parami Road, Ward 16, Hlaing Township,
+              Yangon.
+            </p>
+
+            <p class="mb-2">
+              <i class="bi bi-telephone me-2 text-primary"></i>
+              +95 9 950436445
+            </p>
+
+            <p class="mb-2">
+              <i class="bi bi-envelope-at-fill me-2 text-primary"></i>
+              doublezaccessoriesspace@gmail.com
+            </p>
+          </div>
+
+          <!-- RIGHT: Contact Form -->
+          <div class="col-12 col-md-5">
+            <h5 class="fw-bold mb-3">Send Us a Message</h5>
+
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your name"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your email"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Your message"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-warning">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- footer  -->
     <footer class="border-top mt-5">
       <div class="container py-5">
-        <div class="row g-4">
+        <div class="row g-4 text-center text-md-start">
           <div class="col-md-4">
             <h5>Double Z Electronic</h5>
             <ul class="list-unstyled">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a href="index.html" class="text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="text-decoration-none">About</a>
+              </li>
+              <li>
+                <a href="products.html" class="text-decoration-none"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="text-decoration-none">Contact</a>
+              </li>
             </ul>
           </div>
 
@@ -205,6 +296,15 @@
         </div>
       </div>
     </footer>
+
+    <!-- Scroll To Top Button -->
+    <button
+      id="scrollTopBtn"
+      class="btn btn-warning rounded-circle position-fixed"
+      title="Go to top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
 
     <!-- bootstrap js  -->
     <script

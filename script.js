@@ -57,77 +57,246 @@ const products = [
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
-    id: 8,
-    name: "AC/DC D60 Amplifier",
-    price: 63000,
+    id: 9,
+    name: "AC/DC D3 Bluetooth Amplifier",
+    price: 37000,
+    image: "images/d3.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 10,
+    name: "Z1006 Bluetooth Audio Amplifier",
+    price: 31000,
+    image: "images/bluetoothaudio.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 11,
+    name: "Z1035 20W*20W Bluetooth Amplifier",
+    price: 33000,
+    image: "images/",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 12,
+    name: "8000W Portable Spot Welder",
+    price: 250000,
     image: "images/amplifier6.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
-    id: 8,
-    name: "AC/DC D60 Amplifier",
-    price: 63000,
+    id: 13,
+    name: "1200W DC-DC Booster",
+    price: 40000,
+    image: "images/1200w.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 14,
+    name: "24V 400W AC-DC Power Supply",
+    price: 33000,
+    image: "images/24v400w.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 15,
+    name: "D2000 AC/DC 2.1Ch Amplifier",
+    price: 160000,
+    image: "images/d2000.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 16,
+    name: "10W*10W 3.7V Bluetooth Amplifier",
+    price: 14500,
+    image: "images/10w10w.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 17,
+    name: "ZK-AS21",
+    price: 130000,
     image: "images/amplifier6.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
-    id: 8,
-    name: "AC/DC D60 Amplifier",
-    price: 63000,
+    id: 18,
+    name: "3.7V 5W*5W Bluetooth Amplifier",
+    price: 11000,
+    image: "images/5w5w.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 19,
+    name: "3.7V 10W Bluetooth Amplifier",
+    price: 9500,
+    image: "images/10w.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 20,
+    name: "CA3116 100W Subwoofer Amplifier",
+    price: 29000,
+    image: "images/ca3116.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 21,
+    name: "4.2V 3A Li-ion Charger",
+    price: 3000,
     image: "images/amplifier6.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
-    id: 8,
-    name: "AC/DC D60 Amplifier",
-    price: 63000,
+    id: 22,
+    name: "0-100V 10A Volt & Ampere Meter ",
+    price: 5500,
     image: "images/amplifier6.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
-    id: 8,
-    name: "AC/DC D60 Amplifier",
-    price: 63000,
+    id: 23,
+    name: "TPA3116D2 Audio Amplifier IC ",
+    price: 5500,
     image: "images/amplifier6.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
-    id: 8,
-    name: "AC/DC D60 Amplifier",
-    price: 63000,
+    id: 24,
+    name: "Type C Socket",
+    price: 1700,
     image: "images/amplifier6.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
-    id: 8,
-    name: "AC/DC D60 Amplifier",
-    price: 63000,
+    id: 25,
+    name: "5V 2.4A Powerbank Circuit",
+    price: 1500,
+    image: "images/5Vpowerbank.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 26,
+    name: "DA 1000W 12V Inverter",
+    price: 185000,
     image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 27,
+    name: "DA 1600W 12V Inverter",
+    price: 225000,
+    image: "images/inverter.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 28,
+    name: "IP5407 5V2.4A Powerbank Circuit",
+    price: 4500,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 29,
+    name: "DC Motor Speed Controller",
+    price: 3200,
+    image: "images/dcmotor.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 30,
+    name: "T500 Bluetooth Amplifier",
+    price: 65000,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 31,
+    name: "Type C Female Socket",
+    price: 1400,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 32,
+    name: "Voltmeter Dual USB output",
+    price: 11500,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 33,
+    name: "Supnova Voltmeter",
+    price: 20000,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 34,
+    name: "PT2399 Microphone Circuit",
+    price: 32000,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 35,
+    name: "2*30W BLuetooth Audio Amplifier",
+    price: 18000,
+    image: "images/bluetooth.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 36,
+    name: "XH-M562 2*50W Amplifier",
+    price: 12000,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 37,
+    name: "XY-P40W Bluetooth Amplifier",
+    price: 18000,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 38,
+    name: "8.4V Bluetooth Amplifier Module",
+    price: 50000,
+    image: "images/84v.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 39,
+    name: "ZK-502L",
+    price: 26000,
+    image: "images/amplifier6.jpg",
+    link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
+  },
+  {
+    id: 40,
+    name: "3W*2 Audio Amplifier",
+    price: 1300,
+    image: "images/audio.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
 ];
 
 let currentPage = 1;
-const itemsPerPage = 4;
+const itemsPerPage = 8; //  40 products / 8 per page = 5 pages
 let filteredProducts = [...products];
 
-// Cart
-
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-/* =========================
-   DOM READY
-========================= */
 
 document.addEventListener("DOMContentLoaded", () => {
   setFooterYear();
   updateCartCount();
 
   if (document.getElementById("product-list")) {
-    renderProducts(filteredProducts);
-
-    const searchInput = document.getElementById("searchInput");
-    if (searchInput) searchInput.addEventListener("input", handleSearch);
+    renderProducts();
+    document
+      .getElementById("searchInput")
+      .addEventListener("input", handleSearch);
   }
 
   if (document.getElementById("cart-items")) {
@@ -135,31 +304,32 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-/* =========================
-   PRODUCT RENDERING
-========================= */
+// render products
 
-function renderProducts(list) {
+function renderProducts() {
   const container = document.getElementById("product-list");
   if (!container) return;
 
   const start = (currentPage - 1) * itemsPerPage;
   const end = start + itemsPerPage;
-  const pageItems = list.slice(start, end);
+  const pageItems = filteredProducts.slice(start, end);
 
   container.innerHTML = pageItems.length
     ? pageItems
         .map(
           (p) => `
-        <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="col-6 col-md-4 col-lg-3">
           <div class="card h-100 shadow-sm">
             <img src="${p.image}" class="card-img-top p-3" alt="${p.name}">
             <div class="card-body d-flex flex-column">
-              <h6>${p.name}</h6>
+              <h6 class="fw-semibold">${p.name}</h6>
               <p class="text-success fw-bold">${formatMMK(p.price)}</p>
+
               <div class="mt-auto d-flex justify-content-between">
-                <a href="${p.link}" target="_blank" class="btn btn-outline-primary btn-sm">Details</a>
-                <button class="btn btn-primary btn-sm" onclick="addToCart(${p.id})">Add</button>
+                <a href="${p.link}" target="_blank"
+                  class="btn btn-outline-primary btn-sm">Details</a>
+                <button class="btn btn-primary btn-sm"
+                  onclick="addToCart(${p.id})">Add</button>
               </div>
             </div>
           </div>
@@ -169,31 +339,34 @@ function renderProducts(list) {
         .join("")
     : `<p class="text-center text-muted">No products found</p>`;
 
-  renderPagination(list);
+  renderPagination();
 }
 
-/* =========================
-   PAGINATION
-========================= */
+//pagination
 
-function renderPagination(list) {
+function renderPagination() {
   const pagination = document.getElementById("pagination");
   if (!pagination) return;
 
-  const totalPages = Math.ceil(list.length / itemsPerPage);
+  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
+
   pagination.innerHTML = "";
 
   // Prev
   pagination.innerHTML += `
     <li class="page-item ${currentPage === 1 ? "disabled" : ""}">
-      <a class="page-link" href="javascript:void(0)" onclick="changePage(${currentPage - 1})">Prev</a>
+      <a class="page-link" href="#" onclick="changePage(${currentPage - 1})">
+        Prev
+      </a>
     </li>
   `;
 
   for (let i = 1; i <= totalPages; i++) {
     pagination.innerHTML += `
       <li class="page-item ${i === currentPage ? "active" : ""}">
-        <a class="page-link" href="javascript:void(0)" onclick="changePage(${i})">${i}</a>
+        <a class="page-link" href="#" onclick="changePage(${i})">
+          ${i}
+        </a>
       </li>
     `;
   }
@@ -201,23 +374,23 @@ function renderPagination(list) {
   // Next
   pagination.innerHTML += `
     <li class="page-item ${currentPage === totalPages ? "disabled" : ""}">
-      <a class="page-link" href="javascript:void(0)" onclick="changePage(${currentPage + 1})">Next</a>
+      <a class="page-link" href="#" onclick="changePage(${currentPage + 1})">
+        Next
+      </a>
     </li>
   `;
 }
-
 function changePage(page) {
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
+
   if (page < 1 || page > totalPages) return;
 
   currentPage = page;
-  renderProducts(filteredProducts);
+  renderProducts();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-/* =========================
-   SEARCH
-========================= */
+// search
 
 function handleSearch(e) {
   const keyword = e.target.value.toLowerCase();
@@ -227,26 +400,22 @@ function handleSearch(e) {
     : [...products];
 
   currentPage = 1;
-  renderProducts(filteredProducts);
+  renderProducts();
 }
 
-/* =========================
-   CART FUNCTIONS
-========================= */
+// cart function
 
 function addToCart(id) {
   const product = products.find((p) => p.id === id);
   if (!product) return;
 
   const item = cart.find((c) => c.id === id);
-  if (item) item.qty++;
-  else cart.push({ id, name: product.name, price: product.price, qty: 1 });
+  item ? item.qty++ : cart.push({ ...product, qty: 1 });
 
   saveCart();
   updateCartCount();
-  showToast("Added to cart");
+  showToast("Added to cart Sucessfully");
 }
-
 function removeItem(id) {
   cart = cart.filter((item) => item.id !== id);
   saveCart();
@@ -259,7 +428,11 @@ function changeQty(id, amount) {
   if (!item) return;
 
   item.qty += amount;
-  if (item.qty <= 0) removeItem(id);
+
+  if (item.qty <= 0) {
+    removeItem(id);
+    return;
+  }
 
   saveCart();
   updateCartCount();
@@ -281,17 +454,25 @@ function renderCart() {
   }
 
   cart.forEach((item) => {
-    total += item.price * item.qty;
+    const itemTotal = item.price * item.qty;
+    total += itemTotal;
+
     itemsEl.innerHTML += `
       <div class="d-flex justify-content-between align-items-center border-bottom py-3">
         <div>
           <strong>${item.name}</strong><br>
-          <small>${formatMMK(item.price)} × ${item.qty}</small>
+          <small>${formatMMK(item.price)} * ${item.qty}</small>
         </div>
+
         <div class="d-flex gap-2">
-          <button class="btn btn-sm btn-outline-secondary" onclick="changeQty(${item.id}, -1)">−</button>
-          <button class="btn btn-sm btn-outline-secondary" onclick="changeQty(${item.id}, 1)">+</button>
-          <button class="btn btn-sm btn-danger" onclick="removeItem(${item.id})">&times;</button>
+          <button class="btn btn-sm btn-outline-secondary"
+            onclick="changeQty(${item.id}, -1)">-</button>
+
+          <button class="btn btn-sm btn-outline-secondary"
+            onclick="changeQty(${item.id}, 1)">+</button>
+
+          <button class="btn btn-sm btn-danger"
+            onclick="removeItem(${item.id})">&times;</button>
         </div>
       </div>
     `;
@@ -299,20 +480,16 @@ function renderCart() {
 
   totalEl.textContent = formatMMK(total);
 }
-
 function updateCartCount() {
   const el = document.getElementById("cartCount");
   if (!el) return;
+
   el.textContent = cart.reduce((sum, item) => sum + item.qty, 0);
 }
 
 function saveCart() {
   localStorage.setItem("cart", JSON.stringify(cart));
 }
-
-/* =========================
-   UTILITIES
-========================= */
 
 function formatMMK(price) {
   return price.toLocaleString() + " MMK";
@@ -323,10 +500,7 @@ function setFooterYear() {
   if (year) year.textContent = new Date().getFullYear();
 }
 
-/* =========================
-   TOAST
-========================= */
-
+// ‌add to cart message
 function showToast(message) {
   const toast = document.createElement("div");
   toast.className = "toast-message";
@@ -336,3 +510,35 @@ function showToast(message) {
   setTimeout(() => toast.classList.add("show"), 100);
   setTimeout(() => toast.remove(), 2500);
 }
+
+// scroll to top
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 200) {
+      scrollTopBtn.style.display = "flex";
+    } else {
+      scrollTopBtn.style.display = "none";
+    }
+  });
+
+  scrollTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+});
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+  if (!scrollTopBtn) return;
+
+  window.addEventListener("scroll", () => {
+    scrollTopBtn.style.display = window.scrollY > 200 ? "flex" : "none";
+  });
+
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
