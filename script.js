@@ -327,9 +327,9 @@ function renderProducts() {
 
               <div class="mt-auto d-flex justify-content-between">
                 <a href="${p.link}" target="_blank"
-                  class="btn btn-outline-primary btn-sm">Details</a>
-                <button class="btn btn-primary btn-sm"
-                  onclick="addToCart(${p.id})">Add</button>
+                  class="btn custom-btn btn-sm">Details</a>
+                <button class="btn custom-btn btn-sm"
+                  onclick="addToCart(${p.id})">Add to Cart</button>
               </div>
             </div>
           </div>
