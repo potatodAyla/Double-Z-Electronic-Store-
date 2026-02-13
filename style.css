@@ -87,11 +87,6 @@ body {
     box-shadow 0.2s ease;
 }
 
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-}
-
 .greeting {
   font-family: "Nunito", sans-serif;
 }
@@ -120,14 +115,22 @@ footer a {
 }
 
 #scrollTopBtn {
+  position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 45px;
-  height: 45px;
+  width: 55px; /* bigger button */
+  height: 55px;
   display: none;
   z-index: 1050;
+  border-radius: 50%; /* circle shape */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  display: block;
+
+  /* center icon perfectly */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 28px;
 }
 
 .cart-list .cart-item {

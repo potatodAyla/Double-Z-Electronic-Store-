@@ -109,19 +109,23 @@
       <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center mt-4" id="pagination">
           <li class="page-item disabled">
-            <a class="page-link">Previous</a>
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
           </li>
           <li class="page-item">
-            <a class="page-link" href="products.html">1</a>
+            <a class="page-link" href="products.html?page=1">1</a>
           </li>
           <li class="page-item">
-            <a class="page-link" href="products.html">2</a>
+            <a class="page-link" href="products.html?page=2">2</a>
           </li>
           <li class="page-item">
-            <a class="page-link" href="products.html">3</a>
+            <a class="page-link" href="products.html?page=3">3</a>
           </li>
           <li class="page-item">
-            <a class="page-link" href="products.html">Next</a>
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
           </li>
         </ul>
       </nav>
@@ -182,7 +186,7 @@
       class="btn btn-warning rounded-circle position-fixed"
       title="Go to top"
     >
-      <i class="bi bi-arrow-up"></i>
+      <i class="bi bi-caret-up-fill"></i>
     </button>
 
     <!-- bootstrap js  -->

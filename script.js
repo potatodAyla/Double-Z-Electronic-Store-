@@ -74,7 +74,7 @@ const products = [
     id: 11,
     name: "Z1035 20W*20W Bluetooth Amplifier",
     price: 33000,
-    image: "images/",
+    image: "images/5w5w.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
@@ -116,7 +116,7 @@ const products = [
     id: 17,
     name: "ZK-AS21",
     price: 130000,
-    image: "images/amplifier6.jpg",
+    image: "images/zkas21.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
@@ -144,28 +144,28 @@ const products = [
     id: 21,
     name: "4.2V 3A Li-ion Charger",
     price: 3000,
-    image: "images/amplifier6.jpg",
+    image: "images/li-ion.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
     id: 22,
     name: "0-100V 10A Volt & Ampere Meter ",
     price: 5500,
-    image: "images/amplifier6.jpg",
+    image: "images/Volt.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
     id: 23,
     name: "TPA3116D2 Audio Amplifier IC ",
     price: 5500,
-    image: "images/amplifier6.jpg",
+    image: "images/tpa311.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
     id: 24,
     name: "Type C Socket",
     price: 1700,
-    image: "images/amplifier6.jpg",
+    image: "images/typeC.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
@@ -179,7 +179,7 @@ const products = [
     id: 26,
     name: "DA 1000W 12V Inverter",
     price: 185000,
-    image: "images/amplifier6.jpg",
+    image: "images/inverter2.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
@@ -193,7 +193,7 @@ const products = [
     id: 28,
     name: "IP5407 5V2.4A Powerbank Circuit",
     price: 4500,
-    image: "images/amplifier6.jpg",
+    image: "images/ip5407.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
@@ -207,35 +207,35 @@ const products = [
     id: 30,
     name: "T500 Bluetooth Amplifier",
     price: 65000,
-    image: "images/amplifier6.jpg",
+    image: "images/t500.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
     id: 31,
     name: "Type C Female Socket",
     price: 1400,
-    image: "images/amplifier6.jpg",
+    image: "images/socket.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
     id: 32,
     name: "Voltmeter Dual USB output",
     price: 11500,
-    image: "images/amplifier6.jpg",
+    image: "images/voltmeter.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
     id: 33,
     name: "Supnova Voltmeter",
     price: 20000,
-    image: "images/amplifier6.jpg",
+    image: "images/supnova.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
     id: 34,
     name: "PT2399 Microphone Circuit",
     price: 32000,
-    image: "images/amplifier6.jpg",
+    image: "images/pt2399.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
@@ -249,14 +249,14 @@ const products = [
     id: 36,
     name: "XH-M562 2*50W Amplifier",
     price: 12000,
-    image: "images/amplifier6.jpg",
+    image: "images/xhm562.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
     id: 37,
     name: "XY-P40W Bluetooth Amplifier",
     price: 18000,
-    image: "images/amplifier6.jpg",
+    image: "images/xyp40.jpg",
     link: "https://www.facebook.com/share/p/1CCyNJ5on4/",
   },
   {
@@ -414,7 +414,7 @@ function addToCart(id) {
 
   saveCart();
   updateCartCount();
-  showToast("Added to cart Sucessfully");
+  showToast("Added to cart Successfully");
 }
 function removeItem(id) {
   cart = cart.filter((item) => item.id !== id);
@@ -512,24 +512,7 @@ function showToast(message) {
 }
 
 // scroll to top
-document.addEventListener("DOMContentLoaded", function () {
-  const scrollTopBtn = document.getElementById("scrollTopBtn");
 
-  window.addEventListener("scroll", function () {
-    if (window.scrollY > 200) {
-      scrollTopBtn.style.display = "flex";
-    } else {
-      scrollTopBtn.style.display = "none";
-    }
-  });
-
-  scrollTopBtn.addEventListener("click", function () {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  });
-});
 document.addEventListener("DOMContentLoaded", () => {
   const scrollTopBtn = document.getElementById("scrollTopBtn");
   if (!scrollTopBtn) return;
